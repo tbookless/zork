@@ -10,8 +10,7 @@
 static void litint_ P((integer, integer *, integer, const integer *,
 		       integer));
 
-void cevapp_(ri)
-integer ri;
+void cevapp_(integer ri)
 {
     /* Initialized data */
 
