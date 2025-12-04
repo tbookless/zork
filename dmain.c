@@ -10,7 +10,7 @@
 #include "funcs.h"
 #include "vars.h"
 
-void main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 /* 1) INITIALIZE DATA STRUCTURES */
 /* 2) PLAY GAME */
