@@ -7,8 +7,7 @@
 #include "funcs.h"
 #include "vars.h"
 
-logical trollp_(arg)
-integer arg;
+logical trollp_(integer arg)
 {
     /* System generated locals */
     logical ret_val;
@@ -167,8 +166,7 @@ L10:
 
 /* DECLARATIONS */
 
-logical cyclop_(arg)
-integer arg;
+logical cyclop_(integer arg)
 {
     /* System generated locals */
     integer i__1, i__2;
@@ -306,8 +304,7 @@ L500:
 
 /* DECLARATIONS */
 
-logical thiefp_(arg)
-integer arg;
+logical thiefp_(integer arg)
 {
     /* System generated locals */
     integer i__1;
