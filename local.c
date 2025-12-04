@@ -1,6 +1,8 @@
 /* local.c -- dungeon functions which need local definition */
 
 #include "funcs.h"
+/* unistd.h needed for getuid() */
+#include <unistd.h> 
 
 #ifdef __AMOS__
 #include <moncal.h>
