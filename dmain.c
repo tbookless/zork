@@ -20,5 +20,6 @@ int main(int argc, char **argv)
     }
 /* 						!IF INIT, PLAY GAME. */
     exit_();
+    return 0;
 /* 						!DONE */
 } /* MAIN__ */
