@@ -184,7 +184,7 @@ void more_init()
 
 #else /* ! MORE_AMOS */
 
-    This should be impossible
+    /* This should be impossible */
 
 #endif /* ! MORE_AMOS */
 #endif /* ! MORE_TERMINFO */
