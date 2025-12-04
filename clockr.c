@@ -763,12 +763,7 @@ L24100:
 
 /* DECLARATIONS */
 
-static void litint_(obj, ctr, cev, ticks, tickln)
-integer obj;
-integer *ctr;
-integer cev;
-const integer *ticks;
-integer tickln;
+static void litint_(integer obj, integer *ctr, integer cev, const integer *ticks, integer tickln)
 {
     /* Parameter adjustments */
     --ticks;

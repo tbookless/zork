@@ -9,8 +9,7 @@
 
 /* TAKE AN OBJECT (FOR VERBS TAKE, PUT, DROP, READ, ETC.) */
 
-logical take_(flg)
-logical flg;
+logical take_(logical flg)
 {
     /* System generated locals */
     integer i__1;
@@ -101,8 +100,7 @@ L700:
 
 /* DECLARATIONS */
 
-logical drop_(z)
-logical z;
+logical drop_(logical z)
 {
     /* System generated locals */
     logical ret_val;
@@ -190,8 +188,7 @@ L1000:
 
 /* DECLARATIONS */
 
-logical put_(flg)
-logical flg;
+logical put_(logical flg)
 {
     /* System generated locals */
     logical ret_val;
@@ -331,8 +328,7 @@ L1000:
 
 /* VALUAC- HANDLES VALUABLES/EVERYTHING */
 
-void valuac_(v)
-integer v;
+void valuac_(integer v)
 {
     /* System generated locals */
     integer i__1;

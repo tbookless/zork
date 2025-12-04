@@ -7,8 +7,7 @@
 #include "funcs.h"
 #include "vars.h"
 
-logical aappli_(ri)
-integer ri;
+logical aappli_(integer ri)
 {
     /* System generated locals */
     logical ret_val;
